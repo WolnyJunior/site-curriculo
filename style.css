@@ -1,0 +1,88 @@
+#nome
+{
+    position: relative;
+    text-align: center;
+    padding-top: 13%;
+}
+#borda
+{/*criei uma borda para parecer uma folha*/
+    margin: auto;
+    width: 800px;
+    height: 100%;
+    border: 2px solid black;
+    background-color: white;
+}
+#cabecalho
+{
+    overflow: auto;
+}
+img
+{
+    float: right;
+    width: 25%;
+    padding: 10px;
+}
+#botao
+{
+    text-align: center;    
+}
+.button /*Usei os botoes do bootstrap, mas mudei algumas coisas para ficar de um jeito que eu gostasse*/
+{
+    text-decoration: none;
+    background-color: rgb(43, 195, 226);
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+    box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+}
+h2, h4, #curso_extra, .res
+{
+    text-align: center;
+    margin: 10px;
+}
+h5
+{
+    margin: 15px;
+}
+#btn
+{
+    text-align: center;
+    margin: 25px;
+}
+.dropdown
+{
+    display: inline;/*coloquei display na esperança que as listas de postifólios ficassem lado a lado*/
+}                   /* se era a coisa certa eu não sei, mas funcionou...hehehhe*/
+ul
+{ 
+    text-align: center;   
+    list-style: none; /* lista dos hobbies sem icones na frente de cada item */
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+
+.Insta
+{
+    list-style-image: url(/Assets/Instagran_50.png);
+    list-style-position: inside;
+}
+.Whats
+{
+    list-style-image: url(/Assets/Zap_50.png);/* link para acessar a imagem do icone */
+    list-style-position: inside;/* tag para posicionar a imagem dentro da lista  */
+}
+.Email
+{
+    list-style-image: url(/Assets/email.jpg);
+    list-style-position: inside;
+}
+#home
+{
+    position: fixed;/* posição do botão home fixa */
+    left: 150px;
+    bottom: 520px;
+}
