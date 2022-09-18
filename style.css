@@ -30,8 +30,8 @@ img
 {
     text-decoration: none;
     background-color: rgb(43, 195, 226);
-    padding: 15px;
-    margin: 20px;
+    padding: 10px;
+    margin: 5px;
     border-radius: 10px;
     color: white;
     font-style: italic;
@@ -55,8 +55,10 @@ h5
 }
 .dropdown
 {
+    margin: 20px;
     display: inline;/*coloquei display na esperança que as listas de postifólios ficassem lado a lado*/
 }                   /* se era a coisa certa eu não sei, mas funcionou...hehehhe*/
+
 ul
 { 
     text-align: center;   
@@ -80,9 +82,39 @@ ul
     list-style-image: url(/Assets/email.jpg);
     list-style-position: inside;
 }
+.GitHub
+{
+    list-style-image: url(/Assets/github_50px.jpg);
+    list-style-position: inside;
+}
 #home
 {
     position: fixed;/* posição do botão home fixa */
     left: 150px;
     bottom: 520px;
+}
+#progress-bar-warning
+{
+    background-color: #fd8a24;
+}
+#progress-bar-danger
+{
+    background-color: green;
+}
+.intermediario
+{
+    background-color: #fd8a24;
+}
+#css, #html, #js
+{
+    background-color: #fd8a24;
+    border-radius: 5px;
+    box-shadow: 8px 10px 20px black;
+
+}
+#ingles, #mysql, #java, #python, #c
+{
+    border-radius: 5px;
+    box-shadow: 8px 10px 20px black; 
+
 }
