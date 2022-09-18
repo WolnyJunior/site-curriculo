@@ -8,10 +8,12 @@
     <title>Currículo</title>
 
         <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     
         <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
         
         <!--coloquei a tag de css aqui abaixo do link do bootstrap porque não estava funcionando no arquivo style.css-->
         <style>
@@ -32,26 +34,34 @@
         </div>
     <hr><br><!-- uma linha horizontal e quebra de linha para separar as partes do currículo -->
         <div id="botao"><!-- sequencia de botões do bootstrap-->
-            <a class= "button" href="#escola" class="btn btn-primary" role="button" >Escolaridade</a>
+            <a class= "button" href="#escola" class="btn btn-primary"
+            role="button" >Escolaridade</a>
 
-            <a class= "button" href="#exp" class="btn btn-primary" role="button">Experiências</a>
+            <a class= "button" href="#curso_extra" class="btn btn-primary"
+            role="button" >Conhecimentos</a>
 
-            <a class= "button" href="#port" class="btn btn-primary" role="button">Portifólio</a>
 
-            <a class= "button" href="#hobbies" class="btn btn-primary" role="button">Hobbies</a>
+            <a class= "button" href="#exp" class="btn btn-primary"
+            role="button">Experiências</a>
 
-            <a class= "button" href="#contato" class="btn btn-primary" role="button">Contato</a> <!-- data-bs-toggle="button" removi essa parte de todos os botoes com links -->
+            <a class= "button" href="#port" class="btn btn-primary"
+            role="button">Portifólio</a>
+
+            <a class= "button" href="#hobbies" class="btn btn-primary"
+            role="button">Hobbies</a>
+
+            <a class= "button" href="#contato" class="btn btn-primary"
+             role="button">Contato</a><!-- data-bs-toggle="button" removi essa parte 
+                                        de todos os botoes com links -->
         </div>
-       
-        <br><hr><br> <!-- uma linha horizontal e quebra de linha para separar as partes do currículo -->
-       
+        <br><hr><br><!-- uma linha horizontal e quebra de linha para separar as partes do currículo -->        
         <div id="escola">
             <h2>Escolaridade</h2>
             <h5>Centro Universitário Internacional - UNINTER</h5>
             <h5>Curso:  Análise e Desenvolvimento de Sistemas - EAD</h5>
             <h5>Período: 4º semestre</h5>
             <h4>Disciplinas Concluídas</h4><br>
-            <h6>  <!--deixei a parte das experiências profissionais e das disciplinas concluídas em estilo da tabela usada nas aulas -->
+            <h6><!--deixei a parte das experiências profissionais e das disciplinas concluídas em estilo da tabela usada nas aulas -->
                 <table id="dc" class="table table-striped">
                     <tr><td>Estrutura de Dados</td><td>Governança de Tecnologia da Informação</td></tr>
                     <tr><td>Banco de Dados</td><td>Direito Cibernético</td></tr>
@@ -64,7 +74,82 @@
                     <tr><td>Comunicação Empresarial</td></tr>
                 </table>
             </h6><br>
-            <h5 id="curso_extra">Curso Extra: Desenvolvimento Web Full Stack - <a href="https://programadorbr.com/" style="text-decoration:none;">ProgramadorBr</a></h5>
+            <h5 id="curso_extra">Curso Extra: Desenvolvimento Web Full Stack - 
+                <a href="https://programadorbr.com/" style="text-decoration:none;">ProgramadorBr</a></h5>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active" role="progressbar"
+                    aria-valuenow="18" aria-valuemin="0" aria-valuemax="100" style="width:18%">
+                      18%
+                    </div>
+                  </div>
+                <br><hr><br>
+                <div class="progress">
+                    <div id="progress-bar-success" class="progress-bar progress-bar-success" role="progressbar" style="width:33%">
+                    Basico
+                    </div>
+                    <div id="progress-bar-warning" class="progress-bar progress-bar-warning" role="progressbar" style="width:33%">
+                    Intermediáio
+                    </div>
+                    <div id="progress-bar-danger" class="progress-bar progress-bar-danger" role="progressbar" style="width:34%">
+                    Avançado
+                    </div>
+                </div>
+                <br>
+                <div class="progress">
+                    <div id="c" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100" style="width:13%">
+                      C++
+                    </div>
+                </div>
+                  <br>
+                <div class="progress">
+                    <div id="python" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100" style="width:15%">
+                      Python
+                    </div>
+                </div>
+                  <br>
+                <div class="progress">
+                    <div id="java" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100" style="width:18%">
+                      Java
+                    </div>
+                </div>
+                  <br>
+                <div class="progress">
+                    <div id="mysql" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                      MySQL
+                    </div>
+                </div>
+                  <br>
+                <div class="progress">
+                    <div id="ingles" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+                    aria-valuemin="0" aria-valuemax="100" style="width:25%">
+                      Inglês
+                    </div>
+                </div>
+                <br>
+                <div class="progress">
+                    <div id="js" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+                    aria-valuemin="0" aria-valuemax="100" style="width:33%">
+                      JavaScript
+                    </div>
+                </div>
+                <br>
+                <div class="progress">
+                    <div  id="css" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+                    aria-valuemin="0" aria-valuemax="100" style="width:45%">
+                      CSS
+                    </div>
+                </div>
+                <br>
+                <div class="progress">
+                    <div id="html" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="45"
+                    aria-valuemin="0" aria-valuemax="45" style="width:45%">
+                      HTML
+                    </div>
+                </div>
             </div>
         <br><hr><br><!-- uma linha horizontal e uma quebra de linha para separar as partes do currículo -->
         <div id="exp">
@@ -90,66 +175,93 @@
                      tenho que realizar, para quem sabe propor uma nova forma de realizar. 
                     </h6>
         </div>
-        <br><hr><br> <!-- uma linha horizontal e uma quebra de linha para separar as partes do currículo -->
+        <br><hr><br><!-- uma linha horizontal e uma quebra de linha para separar as partes do currículo -->
         <h2 id="port">Portifólio</h2>
-        <a class= "button" class="btn btn-primary" role="button">Aqui Você Vai Encontrar</a><br><br>
+        <!-- <a class= "button" class="btn btn-primary"
+        role="button">Aqui Você Vai Encontrar</a><br><br> -->
 
             <div class="dropdown">
-                <button id="btn" class="btn btn-secondary dropdown-toggle" type="button"  data-bs-toggle="dropdown" aria-expanded="false">Projetos Inacabados</button>
+                <button id="btn" class="btn btn-secondary dropdown-toggle" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Projetos Inacabados</button>
                 <ul class="dropdown-menu">
                     <h1 class="dropdown-header">Opções</h1>
-                    <li><a class="dropdown-item" href="/Portifólio/LaCasa  do Dog/index.html" target="_blank">La Casa do Dog</a></li><!--esse é um projeto que estou fazendo, tem muita  coisa pra melhorar, mas parei na responsividade. -->
+                    <li><a class="dropdown-item" href="/Portifólio/LaCasa  do Dog/index.html" 
+                        >La Casa do Dog</a></li><!--esse é um projeto que estou fazendo, tem muita  coisa pra melhorar, mas parei na responsividade. -->
+                    <li><a class="dropdown-item" href="/Portifólio/1-LA CASA REFATORADO/index.html" 
+                        >La Casa REFATORADO</a></li>
                 </ul>
             </div>
             <div class="dropdown">
-                <button id="btn" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Exercícios de Aula</button>
+                <button id="btn" class="btn btn-secondary dropdown-toggle" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Exercícios de Aula</button>
                 <ul class="dropdown-menu">
                     <h1 class="dropdown-header">Opções</h1>
-                    <li><a class="dropdown-item" href="/Portifólio/Aula2_Desenvolvimento Web/index.html" target="_blank">Aula Desenvolvimento Web</a></li>
-                    <li><a class="dropdown-item" href="/Portifólio/Aula_CSS_Intermediário/POSITION_STICKY.html" target="_blank">Aula CSS</a></li>
-                    <li><a class="dropdown-item" href="/Portifólio/Aula_HTML_Intermediário/INPUT.html" target="_blank">Aula HTML- Input</a></li><!-- usei pastas de arquivos que ja tinha trabalhado para incrementar o portifólio -->
+                    <li><a class="dropdown-item" href="/Portifólio/Aula2_Desenvolvimento Web/index.html" 
+                        >Aula Desenvolvimento Web</a></li>
+                    <li><a class="dropdown-item" href="/Portifólio/Aula_CSS_Intermediário/POSITION_STICKY.html" 
+                        >Aula CSS</a></li>
+                    <li><a class="dropdown-item" href="/Portifólio/Aula_HTML_Intermediário/INPUT.html" 
+                        >Aula HTML- Input</a></li><!-- usei pastas de arquivos que ja tinha trabalhado para incrementar o portifólio -->
+                    <li><a class="dropdown-item" href="./Portifólio/Estrutura de Página/">Estrutura de Página</a></li>
+                    <li><a class="dropdown-item" href="./Portifólio/Página de Conteúdo/">Página de Conteúdo</a></li>
+
                 </ul>
             </div>
             <div class="dropdown">
-                <button id="btn" class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Desafios de Aula</button>
+                <button id="btn" class="btn btn-secondary dropdown-toggle" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Desafios de Aula</button>
                 <ul class="dropdown-menu">
                     <h1 class="dropdown-header">Opções</h1>
-                    <li><a class="dropdown-item" href="/Portifólio/Desafio_CSS/index.html" target="_blank">Desafio_CSS</a></li><!-- usei pastas de arquivos que ja tinha trabalhado para incrementar o portifólio -->
-                    <li><a class="dropdown-item" href="/Portifólio/Projeto_Página_de_Captura/index.html" target="_blank">Desafio Captura de Tela</a></li>
+                    <li><a class="dropdown-item" href="/Portifólio/Desafio_CSS/index.html">Desafio_CSS</a></li><!-- usei pastas de arquivos que ja tinha trabalhado para incrementar o portifólio -->
+                    <li><a class="dropdown-item" href="/Portifólio/Projeto_Página_de_Captura/index.html">Desafio Captura de Tela</a></li>
+                        <li><a class="dropdown-item" href="/Portifólio/FONTES/index.html">Fontes</a></li>
                 </ul>
             </div>
-       
         <br><hr><br><!-- uma linha horizontal e uma quebra de linha para separar as partes do currículo -->
-       
         <h2 id="hobbies">Hobbies</h2><!-- Nessa parte dos hobbies deixei mais simples -->
         <h6 class="res">Então, entre meus muitos hobbies estão:</h6>
         <ul>
-            <li>Andar de skate, não faço quase nada de manobras, eu gosto mesmo é de subir pra cima do shape e sair remando...heheh Um dia ainda compro um dancing.</li><br>
+            <li>Andar de skate, não faço quase nada de manobras, eu gosto 
+            mesmo é de subir pra cima do shape e sair remando...heheh
+            Um dia ainda compro um dancing.</li><br>
 
-            <li>Gosto de jogar futebol, no inverno eu dou uma sumida dos gramados e das quadras, pois eu sempre arrumo uma lesão por causa do frio. Mas também, não faço o aquecimento, daí a lesão vem mesmo.</li><br>
+            <li>Gosto de jogar futebol, no inverno eu dou uma sumida dos 
+            gramados e das quadras, pois eu sempre arrumo uma lesão por causa do 
+        frio. Mas também, não faço o aquecimento, daí a lesão vem mesmo.</li><br>
 
-            <li>Gosto de jogar um Game também, tenho um PS4 e jogo quando consigo um tempo, ultimamente, meu tempo anda escasso, pois estou estudando e trabalhando bastante. Jogo FIFA,joguei Red Dead Redemption 2,terminei a historia, mas ainda tem coisa
-            pra fazer(credo que jogo grande, mas é muuuuiiiittooo bom), comecei a jogar o  God of War 4, mas estou bem no início.</li><br>
+            <li>Gosto de jogar um Game também, tenho um PS4 e jogo quando consigo um tempo, 
+            ultimamente, meu tempo anda escasso, pois estou estudando e trabalhando bastante.
+            Jogo FIFA,joguei Red Dead Redemption 2,terminei a historia, mas ainda tem coisa
+            pra fazer(credo que jogo grande, mas é muuuuiiiittooo bom), comecei a jogar o
+             God of War 4, mas estou bem no início.</li><br>
 
-            <li>Animes, sim, claro, lógico. Embora minha experiência seja pouca. Olhei Naruto e pretendo olhar o Boruto um dia, olhei uns 80 episódios de One Piece(falta bem pouco agora), alguns de Death Note,
+            <li>Animes, sim, claro, lógico. Embora minha experiência seja pouca. Olhei Naruto e pretendo
+            olhar o Boruto um dia, olhei uns 80 episódios de One Piece(falta bem pouco agora), alguns de Death Note,
             se Dragon Ball Z e Cavaleiros do Zodíaco contar, olhei também.</li><br>
 
-            <li>Olhar filmes, algumas séries. Nada de terror com espíritos(#cagão), gosto de comédia(good vibes), gosto de filmes baseados em fatos reais, ação, aventura, ficção, fantasia...é quase tudo, 
-                séries não me chamam muito a atenção, pelo fato de demorarem para concluir, mas as boas que são sucesso de audiência, eu procuro olhar, até pra não ficar tão alienado nas conversas.</li><br>
+            <li>Olhar filmes, algumas séries. Nada de terror com espíritos(#cagão), gosto de comédia(good vibes), 
+                gosto de filmes baseados em fatos reais, ação, aventura, ficção, fantasia...é quase tudo, 
+                séries não me chamam muito a atenção, pelo fato de demorarem para concluir, mas as boas 
+                que são sucesso de audiência, eu procuro olhar, até pra não ficar tão alienado nas conversas.
+            </li><br>
             <li>Amo andar de moto, passear, viajar(dentro da cidade, vai aqui e ali, eu não gosto muito).</li><br>
         </ul>
-       
         <br><hr><br>
-       
         <h2 id="contato">Contato</h2><!-- Tentei colocar o nome de cada link, mas ficou desalinhado com a imagem, achei feio e não tinha tempo pra tentar arrumar, deixei somente a imagem como link de acesso -->
         <ul><!-- coloquei minha página do instagran, whatsapp e e-mail como meio de contato-->
-            <a style="text-decoration: none;" href="https://instagram.com/juniorsorin?igshid=YmMyMTA2M2Y=" target="_blank"><li class="Insta"></li></a><br>
-            <a style="text-decoration: none;" href="https://wa.me/message/KWDA7GPLGIMRN1" target="_blank"><li class="Whats"></li></a><br>
-            <a style="text-decoration: none;" href= "mailto: juninhosorin@gmail.com" target="_blank"><li class="Email"></li></a></li><br>
+            <a style="text-decoration: none;" href="https://instagram.com/juniorsorin?igshid=YmMyMTA2M2Y=" 
+             target="_blank"><li class="Insta"></li></a><br>
+            <a style="text-decoration: none;" href="https://wa.me/message/KWDA7GPLGIMRN1" 
+            target="_blank"><li class="Whats"></li></a><br>
+            <a style="text-decoration: none;" href= "mailto: juninhosorin@gmail.com" 
+            target="_blank"><li class="Email"></li></a></li><br>
+            <a style="text-decoration: none;" href="https://github.com/WolnyJunior" 
+            target="_blank"><li class="GitHub"></li></a><br>
         </ul>
     OBS: Um dia desses, eu deixo essa página responsiva.<!-- Meu código ficou horrível depois que comentei-->
 </div>
-<a id="home" class= "button" href="index.html" class="btn btn-primary" role="button" >Home</a><!-- botão para subir para o topo da pagina, foi configurado para ficar fixo na tela -->
+<a id="home" class= "button" href="index.html" class="btn btn-primary"
+role="button" >Home</a><!-- botão para subir para o topo da pagina, foi configurado para ficar fixo na tela -->
 
 </body>
 </html>
